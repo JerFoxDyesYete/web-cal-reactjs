@@ -1,0 +1,98 @@
+body {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  margin-top: 10%;
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.calculator {
+  background-color: rgb(29, 28, 28);
+  width: 415px;
+  padding: 30px;
+  border: solid 4px rgb(52, 52, 52);
+}
+
+input {
+  color: rgb(224, 224, 224);
+  background-color: rgb(39, 39, 39);
+  border: none;
+  height: 80px;
+  width:375px;
+  font-size: 40pt;
+  text-align: right;
+  padding: 20px;
+  overflow: hidden;
+}
+
+
+.calkeys {
+  flex-direction: row;
+}
+
+
+.operator {
+  background-color: hsl(40, 100%, 40%);
+}
+
+.operator:hover {
+  background-color: hsl(40, 100%, 65%);
+}
+
+.operator:active{
+  background-color: hsl(40, 100%, 100%);
+}
+
+body button {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: none;
+  flex: 0 0 25%;
+  background-color: hsl(0, 0%, 30%);
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+
+button:hover {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: none;
+  background-color: hsl(0, 0%, 45%);
+  font-size: 30px;
+  color: white;
+}
+
+button:active {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: none;
+  background-color: hsl(0, 0%, 80%);
+  font-size: 30px;
+  color: white;
+}
+
+body .equal-btn button {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: hsl(40, 100%, 40%);
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
