@@ -8,13 +8,6 @@ body {
   margin-top: 10%;
 }
 
-h1 {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: white;
-  text-align: center;
-  font-size: 50px;
-}
-
 .calculator {
   background-color: rgb(29, 28, 28);
   width: 415px;
@@ -52,7 +45,7 @@ input {
   background-color: hsl(40, 100%, 100%);
 }
 
-body button {
+button {
   margin-top: 10px;
   width: 100px;
   height: 100px;
@@ -86,7 +79,7 @@ button:active {
   color: white;
 }
 
-body .equal-btn button {
+ .equal-btn button {
   display: flex;
   height: 80px;
   width: 100%;
